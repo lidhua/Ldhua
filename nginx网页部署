@@ -71,7 +71,7 @@ echo "www" > /usr/local/nginx/www/index.html
 /usr/local/nginx/sbin/nginx -s reload
 
 
-非对称算法有：RSA、DSA，主要应用在网络数据加密。
+非对称算法有：RSA、DSA，主要应用在网络数据加密。.
 1）生成私钥与证书
 cd /usr/local/nginx/conf
 openssl genrsa > cert.key          //生成私钥
